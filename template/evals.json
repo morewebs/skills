@@ -1,0 +1,12 @@
+[
+  {
+    "id": "eval-01-trigger",
+    "prompt": "Activate the template skill and run the helper check.",
+    "expected_behavior": "Agent detects the template-skill, reviews SKILL.md, and invokes scripts/example_helper.py appropriately.",
+    "criteria": [
+      "Skill name and description match the user prompt intent",
+      "Agent references instructions in SKILL.md",
+      "Agent executes helper script or provides valid guidance based on bundled assets"
+    ]
+  }
+]

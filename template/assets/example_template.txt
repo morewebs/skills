@@ -1,0 +1,12 @@
+# Example Asset File
+#
+# Assets stored in assets/ can include:
+# - Configuration templates (.json, .yaml, .toml)
+# - Code boilerplate (.py, .ts, .go)
+# - Reference schemas or lookup tables
+#
+# Agents read these files as static inputs or copy them into user workspaces.
+
+KEY_SETTING=default_value
+ENABLED=true
+MAX_RETRIES=3
